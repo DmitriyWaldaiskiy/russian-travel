@@ -8,6 +8,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {

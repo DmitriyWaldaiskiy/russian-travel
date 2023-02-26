@@ -4,7 +4,7 @@
   font-family: "Inter";
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   text-align: center;
   color: #ffffff;
   margin: 32px auto 64px;
@@ -12,16 +12,12 @@
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    font-size: 30px;
-    line-height: 36px;
     margin: 32px 192px 56px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    font-size: 30px;
-    line-height: 36px;
     margin: 32px 64px 56px;
   }
 }
@@ -29,7 +25,7 @@
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     margin: 16px 16px 38px;
   }
 }

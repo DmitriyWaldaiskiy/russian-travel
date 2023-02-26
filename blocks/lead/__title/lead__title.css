@@ -9,16 +9,30 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .lead__title {
-    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .lead__title {
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.1;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    max-width: 288px;
+    width: 100%;
     font-size: 40px;
-    line-height: 44px;
+    line-height: 1.1;
   }
 }

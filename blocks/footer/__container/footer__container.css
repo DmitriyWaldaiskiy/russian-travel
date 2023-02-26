@@ -1,8 +1,18 @@
 .footer__container {
-  width: 465px;
+  width: 482px;
   display: flex;
   justify-content: space-around;
   list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    width: 100%;
+    min-height: 248px;
+    padding: 0;
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
 }
 
 @media screen and (max-width: 320px) {
