@@ -32,6 +32,7 @@
 @media screen and (max-width: 320px) {
   .footer__link {
     padding-left: 16px;
+    margin-top: 32px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
