@@ -1,4 +1,6 @@
 .place__text {
+  margin: 0;
+  width: 100%;
   grid-area: text;
 }
 
@@ -9,9 +11,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   .place__text {
-    max-width: 100%;
+    max-width: 90%;
     margin: 0;
     text-align: left;
   }
