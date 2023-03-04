@@ -11,14 +11,14 @@
   text-decoration: none;
 }
 
+.header__lang-link_activ:hover {
+  opacity: 0.5;
+}
+
 @media screen and (max-width: 320px) {
   .header__lang-link {
     margin-top: 14px;
     font-size: 18px;
     line-height: 20px;
   }
-}
-
-.header__lang-link_activ:hover {
-  opacity: 0.5;
 }
