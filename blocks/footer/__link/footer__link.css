@@ -2,11 +2,11 @@
   margin: 0 18px 0;
   color: #ffffff;
   text-decoration: none;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1024px) {
@@ -31,11 +31,7 @@
 
 @media screen and (max-width: 320px) {
   .footer__link {
-    padding-left: 16px;
     margin-top: 32px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 24px;
   }
@@ -47,4 +43,8 @@
 
 .footer__link:last-child {
   margin-right: 0;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
 }

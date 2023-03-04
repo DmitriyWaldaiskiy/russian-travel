@@ -1,33 +1,31 @@
 .footer {
+  margin: 0;
   display: flex;
   justify-content: space-between;
-  max-width: 1184px;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    margin-top: 35px;
+    margin-top: 77px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     width: 100%;
-    margin-top: 88px;
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 590px) {
   .footer {
-    width: 100%;
     flex-direction: column;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: 100%;
-    flex-direction: column;
-    margin-top: 64px;
+    margin-top: 25px;
   }
 }

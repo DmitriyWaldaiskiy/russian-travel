@@ -1,10 +1,30 @@
 .footer__copyright {
-  max-width: 186px;
-  font-family: 'Inter';
+  display: flex;
+  align-items: center;
+  max-width: 210px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: right;
   color: #ffffff;
+  margin-right: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    align-items: end;
+  }
+}
+
+@media screen and (max-width: 320) {
+  .footer__copyright {
+    line-height: 1;
+  }
 }

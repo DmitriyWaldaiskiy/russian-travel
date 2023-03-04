@@ -11,23 +11,19 @@
   row-gap: 48px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place {
     max-width: 100%;
     grid-template-columns: 440px 1fr;
-    column-gap: 15px;
-    row-gap: 47px;
-    margin-bottom: 80px;
+    column-gap: 25px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
-    grid-template-columns: 440px 1fr;
     column-gap: 32px;
     row-gap: 47px;
-    margin-bottom: 80px;
   }
 }
 
@@ -37,7 +33,7 @@
     grid-template-columns: 249px 1fr;
     column-gap: 110px;
     row-gap: 81px;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
   }
 }
 
@@ -46,8 +42,7 @@
     max-width: 720px;
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
-    row-gap: 81px;
-    margin-bottom: 28px;
+    row-gap: 48px;
   }
 }
 
@@ -74,8 +69,7 @@
       "text";
     max-width: 320px;
     grid-template-columns: 320px;
-    row-gap: 25px;
-    margin-bottom: 52px;
+    margin-bottom: 65px;
   }
 }
 

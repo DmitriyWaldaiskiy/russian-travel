@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: "Inter";
   font-style: 900;
   font-size: 72px;
   line-height: 1.06;
@@ -14,6 +13,7 @@
   .place__title {
     font-size: 42px;
     line-height: 1.1;
+    max-width: 300px;
   }
 }
 

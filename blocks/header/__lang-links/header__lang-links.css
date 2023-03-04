@@ -1,0 +1,10 @@
+.header__lang-links {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    align-self: end;
+  }
+}

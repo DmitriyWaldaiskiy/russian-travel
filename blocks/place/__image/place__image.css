@@ -13,35 +13,24 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    padding: 0;
     max-width: 440px;
   }
 }
 
 @media screen and (max-width: 990px) {
   .place__image {
-    padding: 0;
     max-width: 350px;
   }
 }
 
 @media screen and (max-width: 730px) {
   .place__image {
-    padding: 0;
     max-width: 350px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .place__image {
-    padding: 0;
-    max-width: 90%;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .place__image {
-    padding: 0;
     max-width: 90%;
   }
 }
