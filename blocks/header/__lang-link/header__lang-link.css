@@ -11,7 +11,7 @@
   text-decoration: none;
 }
 
-.header__lang-link_activ:hover {
+.header__lang-link:hover {
   opacity: 0.5;
 }
 

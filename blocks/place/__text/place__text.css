@@ -4,17 +4,9 @@
   grid-area: text;
 }
 
-@media screen and (max-width: 768px) {
-  .place__text {
-    margin: 0;
-    width: 100%;
-  }
-}
-
 @media screen and (max-width: 350px) {
   .place__text {
-    width: 100%;
-    margin-top: 35px;
+    margin-top: 7px;
     text-align: left;
   }
 }

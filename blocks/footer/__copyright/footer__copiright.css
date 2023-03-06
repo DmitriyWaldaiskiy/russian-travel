@@ -8,7 +8,7 @@
   line-height: 1.14;
   text-align: right;
   color: #ffffff;
-  margin-right: 26px;
+  margin-right: 50px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,8 +23,9 @@
   }
 }
 
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 1;
+    margin-left: 16px;
   }
 }
