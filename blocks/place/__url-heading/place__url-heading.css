@@ -5,9 +5,10 @@
   line-height: 0.2;
   letter-spacing: 2px;
   color: #AAAAAA;
+  margin: 0 0 12px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
   .place__url-heading {
     line-height: 12px;
   }
@@ -16,6 +17,5 @@
 @media screen and (max-width: 450px) {
   .place__url-heading {
     max-width: 80%;
-    margin: 0 0 14px;
   }
 }

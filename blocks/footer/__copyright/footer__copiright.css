@@ -23,14 +23,13 @@
     align-items: end;
     margin-left: 16px;
     margin-top: 80px;
-    margin-right: 10px;
+    margin-right: 27px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 1;
-    margin-left: 16px;
     margin-top: 15px;
     max-width: 100%;
   }
