@@ -40,10 +40,10 @@
 @media screen and (max-width: 770px) {
   .place {
     max-width: 720px;
-    grid-template-columns: 350px 1fr;
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
-    row-gap: 40px;
-    margin-bottom: 10px;
+    row-gap: 48px;
+    margin-bottom: 72px;
   }
 }
 
@@ -58,6 +58,7 @@
     grid-template-columns: 300px;
     row-gap: 25px;
     margin-bottom: 52px;
+    margin: 0 auto 50px;
   }
 }
 
@@ -65,7 +66,7 @@
   .place {
     min-height: max-content;
     grid-template-columns: 1fr;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     row-gap: 32px;
   }
 }
