@@ -19,9 +19,9 @@
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
-    max-width: 186px;
+    max-width: 100%;
     align-items: end;
-    margin-right: 52px;
+    margin-right: -14px;
     margin-top: 80px;
   }
 }
@@ -30,5 +30,7 @@
   .footer__copyright {
     line-height: 1;
     margin-left: 16px;
+    margin-top: 15px;
+    max-width: 100%;
   }
 }

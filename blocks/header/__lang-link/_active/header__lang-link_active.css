@@ -2,3 +2,7 @@
   margin-right: 18px;
   text-decoration: underline;
 }
+
+.header__lang-link_active:last-child {
+  margin-right: 0;
+}
